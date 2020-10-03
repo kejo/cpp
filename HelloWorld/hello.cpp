@@ -1,17 +1,11 @@
-#include <iostream>
+void Log(const char*);
 
-
-
-void Log(const char* message){
-    std::cout << message << std::endl;
-}
 
 int main(){
-    Log("Hello World!!!");
+    Log("Hello World!!! This is Ketan!!!");
     // Log(__cplusplus);
     // std::cout << "Hello World!!!" << std::endl;
     // std::cout << __cplusplus << std::endl;
     // std::getchar();
 
 }
-
