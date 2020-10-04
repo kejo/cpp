@@ -1,6 +1,6 @@
 #include <iostream>
 
-void Log(const char* message){
+void Log(std::string message){
     std::cout << message << std::endl;
 }
 
